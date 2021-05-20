@@ -7,7 +7,7 @@ resource "google_compute_instance" "firstvm" {
   # Defini a Imagem da VM
   boot_disk {
     initialize_params {
-      image = "ubuntu-1804-bionic-v20210415"
+      image = "ubuntu-1804-bionic-v20210514"
     }
   }
 
